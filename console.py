@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 """ conole """
 
+=======
+#!/usr/bin/env python3
+"""Defines the HBnB console."""
+>>>>>>> dd6f7312133d4673fcaaf625598dd4bc4d120c53
 import cmd
 from datetime import datetime
 import models
@@ -162,3 +167,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+
